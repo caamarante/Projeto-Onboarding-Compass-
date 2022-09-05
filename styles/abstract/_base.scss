@@ -1,0 +1,8 @@
+@import './variaveis';
+
+html {
+    text-align: center;
+    background-color: $cor-de-fundo;
+    font-family: $fonte;
+    line-height: initial;
+}
