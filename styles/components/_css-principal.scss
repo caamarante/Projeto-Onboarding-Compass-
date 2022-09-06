@@ -1,0 +1,11 @@
+@import '../abstract/variaveis';
+
+.container {
+    height: 95vh;
+    display: grid;
+    background-color: $terceira-cor;
+    margin: 1rem;
+    border-radius: 20px;
+    align-items: center;
+    align-content: space-evenly;
+}
