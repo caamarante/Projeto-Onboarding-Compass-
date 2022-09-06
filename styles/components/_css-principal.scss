@@ -18,10 +18,10 @@
             margin-bottom: 1rem;
         }
         h2 {
-            width: 90%;
+            width: 80%;
             margin: auto;
             font-size: $tamanho-do-texto / 0.9;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
         }
     }
 
@@ -71,6 +71,100 @@
             font-size: $tamanho-do-texto / 1.2;
             text-decoration: none;
             color: $segunda-cor;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        .informacoes {
+            .imagem {
+                width: 340px;
+            }
+            h1 {
+                font-size: $tamanho-do-texto / 0.8;
+                font-weight: 500;
+            }
+            h2 {
+                font-size: $tamanho-do-texto;
+            }
+        }
+
+        .circulo-lista {
+            ul {
+                li {
+                    width: 13px;
+                    height: 13px;
+                }
+            }
+        }
+
+        .link-botao {
+            button {
+                font-size: $tamanho-do-texto / 1.1;
+            }
+        }
+        .skip {
+            a {
+                font-size: $tamanho-do-texto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .container {
+        .informacoes {
+            h2 {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 515px) {
+    html {
+        background-color: $terceira-cor;
+    }
+    .container {
+        margin: 0;
+        border-radius: 0;
+        .informacoes {
+            .imagem {
+                width: 300px;
+            }
+            h1 {
+                font-size: 24px;
+                font-weight: 500;
+            }
+            h2 {
+                width: 300px;
+                font-size: 18px;
+            }
+        }
+        
+        .circulo-lista {
+            ul {
+                li {
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+            
+        }
+        
+        .link-botao {
+            button {
+                width: 308px;
+                padding: 15px 0;
+                font-size: 18px;
+            }
+        }
+            
+        .skip {
+            a {
+                font-size: 18px;
+            }
         }
     }
 }
