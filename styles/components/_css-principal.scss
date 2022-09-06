@@ -8,4 +8,38 @@
     border-radius: 20px;
     align-items: center;
     align-content: space-evenly;
+    .informacoes {
+        .imagem {
+            width: 360px;
+        }
+        h1 {
+            font-size: $tamanho-do-texto / 0.7;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            width: 90%;
+            margin: auto;
+            font-size: $tamanho-do-texto / 0.9;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .circulo-lista{
+        ul {
+            display: inline-flex;
+            text-decoration: none;
+            li {
+                width: 15px;
+                height: 15px;
+                border: 1.4px solid $quarta-cor;
+                border-radius: 50%;
+                margin: 0 8px;
+            }
+            .checked {
+                background-color: $segunda-cor;
+                border: 1.4px solid $terceira-cor;
+            }
+        }
+    }
 }
