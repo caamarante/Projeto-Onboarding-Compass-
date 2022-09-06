@@ -1,0 +1,16 @@
+html, body {
+  text-align: center;
+  background-color: #F3F5F7;
+  font-family: "Poppins", sans-serif;
+  line-height: initial;
+}
+
+.container {
+  height: 95vh;
+  display: grid;
+  background-color: #FFFFFF;
+  margin: 1rem;
+  border-radius: 20px;
+  align-items: center;
+  align-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */
